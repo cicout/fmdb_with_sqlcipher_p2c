@@ -6,7 +6,7 @@ let package = Package(
     platforms: [.iOS(.v8)],
     products: [
         .library(name: "FMDB+SQLCipher", targets: ["FMDB", "SQLCipher"]),
-        .library(name: "FMDB", targets: ["FMDB"),
+        .library(name: "FMDB", targets: ["FMDB"]),
         .library(name: "SQLCipher", targets: ["SQLCipher"])
     ],
     targets: [

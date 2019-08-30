@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .target(
             name: "FMDB",
-            path: "Pods/FMDB",
-            dependencies: ["SQLCipher"]
+            dependencies: ["SQLCipher"],
+            path: "Pods/FMDB"            
         ),
         .target(
             name: "SQLCipher",
